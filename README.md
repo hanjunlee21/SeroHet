@@ -41,13 +41,13 @@ SeroHet produces multiple plots as output.
 A heatmap of Spearman's rho between identical and different seroproteins
 * Each signature is color-coded and represented as a box
 
-![Input-wide Spearman](https://user-images.githubusercontent.com/67846757/118358363-6ca7a480-b54c-11eb-9523-d6fc834dbe3f.jpg | width=100)
+<img src="https://user-images.githubusercontent.com/67846757/118358363-6ca7a480-b54c-11eb-9523-d6fc834dbe3f.jpg" width="500">
 
 ### `GroupID.signatures.pdf`
 A bar plot of logistic(z-score) of each group
 * Each signature is color-coded and is presented in a numerical order
 
-![Healthy Control signatures](https://user-images.githubusercontent.com/67846757/118358446-c8722d80-b54c-11eb-9d11-ac0dad6cbf06.jpg | width=100)
+<img src="https://user-images.githubusercontent.com/67846757/118358446-c8722d80-b54c-11eb-9d11-ac0dad6cbf06.jpg" width="500">
 
 ### `GroupID1.GroupID2.volcano.pdf`
 A volcano plot between two groups
@@ -56,4 +56,4 @@ A volcano plot between two groups
 * Each signature is color-coded
 * Signature-wise Bonferroni-corrected threshold for p-value is presented as a horizontal line
 
-![Healthy Control vs Lung Cancer volcano](https://user-images.githubusercontent.com/67846757/118358498-125b1380-b54d-11eb-8fb1-35cea50afc59.jpg | width=100)
+<img src="https://user-images.githubusercontent.com/67846757/118358498-125b1380-b54d-11eb-8fb1-35cea50afc59.jpg" width="500">
