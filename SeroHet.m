@@ -83,14 +83,13 @@ signature = unique(class(:,2));
 signature = sort_signature(signature);
 cmap = colormap(hsv(size(signature,1)));
 cmap_class = cmap_seroprotein(cmap,signature,class);
-cmap_volcano = class_seroprotein_coersion(cmap_class,class,seroprotein);
 num_signature = count_signature(signature,class);
 
 % Filter only SeroHet proteins
 [matrix,mismatch] = filter_proteins(matrix,seroprotein,class);
 
 % Mean-centered normalization based on reference data
-matrix = mean_centered(matrix,install_path,version,class);
+matrix = mean_centered(matrix,groupID);
 
 % Retrieve the logistic of z-score and set non-available values as zero
 matrix = logistic_transformation(matrix,mismatch);
@@ -154,15 +153,15 @@ alpha = 0.05/size(signature,1);
 if strcmp(statistics_value,'on')
     combi = nchoosek(group,2);
     for count = 1:size(combi,1)
-        log2FC = zeros(size(seroprotein,1),1);
-        welch_p = zeros(size(seroprotein,1),1);
-        for serocount = 1:1:size(seroprotein,1)
-            log2FC(serocount,1) = log(mean(matrix(serocount,strcmp(groupID,combi(count,2))).'))/log(2)-log(mean(matrix(serocount,strcmp(groupID,combi(count,1))).'))/log(2);
-            [~,welch_p(serocount,1)] = ttest2(matrix(serocount,strcmp(groupID,combi(count,2))).',matrix(serocount,strcmp(groupID,combi(count,1))).','VarType','unequal');
+        log2FC = zeros(size(class,1),1);
+        welch_p = ones(size(class,1),1);
+        for countclass = 1:1:size(class,1)
+            log2FC(countclass,1) = log(mean(matrix(countclass,strcmp(groupID,combi(count,2))).'))/log(2)-log(mean(matrix(countclass,strcmp(groupID,combi(count,1))).'))/log(2);
+            [~,welch_p(countclass,1)] = ttest2(matrix(countclass,strcmp(groupID,combi(count,2))).',matrix(countclass,strcmp(groupID,combi(count,1))).','VarType','unequal');
         end
         scatter_size = 25;
         figure('Visible','off');
-        scatter(log2FC,-log10(welch_p),scatter_size,cmap_volcano,'filled');
+        scatter(log2FC,-log10(welch_p),scatter_size,cmap_class,'filled');
         hold on
         box on
         ylabel('-log10 p-value');
