@@ -4,8 +4,9 @@ SeroHet is a MATLAB-based software to study signatures of interpatient seroprote
 SeroHet is developed and maintained by Hanjun Lee (MIT/MGH/Broad).
 SeroHet requires three input files:
 	a single tab-delimited .txt file containing the concentrations of each seroprotein (#seroproteins-by-#samples)
+		unit should be identical to that in the library/SeroHet.v.1.0.txt
 	a single .txt file containing the names of the seroprotein (#seroproteins-by-1)
-		nomenclature should be identical to that in the library/SeroHet.v.1.0.seroprotein.txt
+		nomenclature should be identical to that in the library/SeroHet.v.1.0.txt
 	a single .txt file containing the group IDs (#groups-by-1)
 
 For detailed descriptions on SeroHet, please refer to:
