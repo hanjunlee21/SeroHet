@@ -13,7 +13,7 @@ Lee H, Kim SY, Kim DW, Park YS, Hwang JH, Cho S, and Cho JY.
 SeroHet: Signatures of Interpatient Seroprotein Heterogeneity in Lung, Pancreatic, and Colorectal Cancers.
 Forthcoming.
 
-To run SeroHet, enter a matlab session and run the matlab function
+To run SeroHet, enter a MATLAB session and run the matlab function
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir');
 
 path_matrix - The path to .txt file containing the concentrations of each seroprotein.
@@ -22,7 +22,16 @@ path_groupID - The path to .txt file containing group IDs.
 outdir - An output directory where generated figures will be saved.
 
 e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure');
-	or SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancerstage.txt','figure');
+
 This package is supported in Windows, Mac, and Linux environments.
 This package was developed using Matlab version 2019b.
 
+----------v.1.1 patch---------
+
+Statistics optional field and input-wide Spearman correlation coefficient heatmap are added.
+
+To run statistical analysis on SeroHet,
+enter a MATLAB session and run the matlab function
+SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'Statistics', 'on');
+
+e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','Statistics','on');
