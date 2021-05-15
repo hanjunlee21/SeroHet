@@ -83,6 +83,7 @@ signature = unique(class(:,2));
 signature = sort_signature(signature);
 cmap = colormap(hsv(size(signature,1)));
 cmap_class = cmap_seroprotein(cmap,signature,class);
+cmap_volcano = class_seroprotein_coersion(cmap_class,class,seroprotein);
 num_signature = count_signature(signature,class);
 
 % Filter only SeroHet proteins
@@ -161,7 +162,7 @@ if strcmp(statistics_value,'on')
         end
         scatter_size = 25;
         figure('Visible','off');
-        scatter(log2FC,-log10(welch_p),scatter_size,cmap_class,'filled');
+        scatter(log2FC,-log10(welch_p),scatter_size,cmap_volcano,'filled');
         hold on
         box on
         ylabel('-log10 p-value');
