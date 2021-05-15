@@ -13,7 +13,7 @@ git https://github.com/hanjunlee21/SeroHet.git
 ```
 
 ## Input
-SeroHet requires a matrix of seroprotein concentrations. The nomenclature and the unit for should follow that of the [library](https://hanjun.group/wp-content/uploads/2021/05/SeroHet.v.1.0.txt).
+SeroHet requires a matrix of seroprotein concentrations. The nomenclature and the unit for should follow that of the [library](https://hanjun.group/wp-content/uploads/2021/05/SeroHet.v.1.0.txt). Data from individuals without cancer should be labeled as "Healthy Control".
 
 SeroHet requires three input files:
 * a single tab-delimited .txt file containing the concentrations of each seroprotein (#seroproteins-by-#samples)
