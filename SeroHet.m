@@ -11,6 +11,8 @@
 % Optional Fields:
 %    'Statistics' - Whether to draw volcano plot
 %        'on' | 'off'
+%    'ROC' - Whether to draw ROC curves
+%        'on' | 'off'
 %
 % Output Figures:
 %    (groupID).SeroHet.signatures.pdf : This bar plot compares the SerHet signatures in the given group
@@ -18,12 +20,12 @@
 
 function SeroHet(path_matrix,path_seroprotein,path_groupID,outdir,field1_name,field1_value)
 
-% SeroHet software version 1.1
+% SeroHet software version 1.2
 % Copyright (c) 2021 Hanjun Lee, Seo Yihl Kim, Dong Wook Kim,
 % Young Soo Park, Jin-Hyeok Hwang, Sukki Cho, and Je-Yoel Cho.
 %
 % See the accompanying file LICENSE.txt for licensing details.
-version = '1.1';
+version = '1.2';
 
 % Determine necessary paths
 install_path = regexprep(which('SeroHet'),'SeroHet\.m$','');
@@ -40,15 +42,17 @@ elseif nargin==3
     outdir = [install_path 'figure/'];
     disp(outdir);
     statistics_value = 'off';
+    roc_value = 'off'
 elseif nargin==4
     statistics_value = 'off';
+    roc_value = 'off'
 elseif nargin==5
     disp('Usage: SeroHet(path_matrix,path_seroprotein,path_groupID,outdir)');
     disp('Usage: SeroHet(___, Name, Value)');
     disp('User must specify optional field name and value');
     return;
 elseif nargin==6
-    if ~strcmpi(field1_name, 'Statistics')&&~strcmpi(field1_name, 'Statistic')
+    if ~strcmpi(field1_name, 'Statistics')&&~strcmpi(field1_name, 'Statistic')&&~strcmpi(field1_name, 'ROC')
         disp('Invalid optional field name');
         return;
     end
@@ -56,9 +60,21 @@ elseif nargin==6
         disp('Invalid optional field value');
         return;
     elseif strcmpi(field1_value, 'on')||strcmpi(field1_value, 'true')||strcmpi(field1_value, 'T')
-        statistics_value = 'on';
+        if strcmpi(field1_name, 'Statistics')||strcmpi(field1_name, 'Statistic')
+            statistics_value = 'on';
+            roc_value = 'off';
+        elseif strcmpi(field1_name, 'ROC')
+            roc_value = 'on';
+            statistics_value = 'off';
+        end
     elseif strcmpi(field1_value, 'off')||strcmpi(field1_value, 'false')||strcmpi(field1_value, 'F')
-        statistics_value = 'off';
+        if strcmpi(field1_name, 'Statistics')||strcmpi(field1_name, 'Statistic')
+            statistics_value = 'off';
+            roc_value = 'off';
+        elseif strcmpi(field1_name, 'ROC')
+            roc_value = 'off';
+            statistics_value = 'off';
+        end
     end
 end
 if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)||~ischar(outdir)||~ischar(field1_name)||~ischar(field1_value)
@@ -75,13 +91,14 @@ path_groupID = full_path(path_groupID, install_path);
 
 % Read files
 [matrix,seroprotein,groupID] = read_files(path_matrix,path_seroprotein,path_groupID);
+spearman_matrix = matrix;
 group = unique(groupID);
 
 % Read classification
 class = read_classification(install_path,version);
 signature = unique(class(:,2));
 signature = sort_signature(signature);
-cmap = colormap(hsv(size(signature,1)));
+cmap = colormap([0.545098039215686,0.0235294117647059,0.0156862745098039;0.564705882352941,0.341176470588235,0.00392156862745098;0.478431372549020,0.498039215686275,0.0705882352941177;0.223529411764706,0.443137254901961,0.141176470588235;0.133333333333333,0.466666666666667,0.341176470588235;0.247058823529412,0.419607843137255,0.525490196078431;0.117647058823529,0.227450980392157,0.419607843137255;0.203921568627451,0.160784313725490,0.380392156862745;0.450980392156863,0.219607843137255,0.470588235294118;0.623529411764706,0.0509803921568627,0.376470588235294]);
 cmap_class = cmap_seroprotein(cmap,signature,class);
 num_signature = count_signature(signature,class);
 
@@ -90,6 +107,8 @@ num_signature = count_signature(signature,class);
 
 % Mean-centered normalization based on reference data
 matrix = mean_centered(matrix,groupID);
+roc_matrix = matrix;
+spearman_matrix = mean_centered(spearman_matrix,groupID);
 
 % Retrieve the logistic of z-score and set non-available values as zero
 matrix = logistic_transformation(matrix,mismatch);
@@ -119,34 +138,28 @@ for count = 1:1:size(group, 1)
     hold off
 end
 
-% Draw input-wide Spearman correlation coefficient heatmap
-hmap = spearman_heatmap(matrix);
-figure('Visible','off');
-cmax = 0.5;
-imagesc(hmap,[0 cmax]);
-hold on
-colormap bone
-cbar = colorbar('southoutside','XTick',[0 cmax]);
-cbar.Label.String = 'Spearman''s rho';
-axis square;
+% Classify novel seroproteins into SeroHet signatures
+hmap = spearman_heatmap(spearman_matrix);
+novel_seroprotein = [];
 line_width = 1.5;
-line_offset = -0.5;
-for count = 1:1:size(signature,1)
-    if count == 1
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1),size(hmap,1)+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+0,sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+0,0+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1)-sum(num_signature(1:(count),1)),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+0,sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+sum(num_signature(1:(count),1)),sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-    else
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1)-sum(num_signature(1:(count-1),1)),size(hmap,1)-sum(num_signature(1:(count-1),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+sum(num_signature(1:(count-1),1)),sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1)-sum(num_signature(1:(count-1),1)),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+sum(num_signature(1:(count-1),1)),sum(num_signature(1:(count-1),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1)-sum(num_signature(1:(count),1)),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+sum(num_signature(1:(count-1),1)),sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
-        line([size(hmap,1),size(hmap,1)]-[line_offset+size(hmap,1)-sum(num_signature(1:(count-1),1)),size(hmap,1)-sum(num_signature(1:(count),1))+line_offset],[size(hmap,1),size(hmap,1)]-[line_offset+sum(num_signature(1:(count),1)),sum(num_signature(1:(count),1))+line_offset],'Color',cmap(count,:),'LineWidth',line_width);
+for count = 1:1:size(spearman_matrix,1)
+    if sum(strcmp(seroprotein(count,1), class(:,1))) == 0
+        spearman_vector = [];
+        signature_vector = [];
+        for spearmancount = 1:1:size(spearman_matrix,1)
+            if sum(strcmp(seroprotein(spearmancount,1), class(:,1))) > 0
+                spearman_vector = [spearman_vector; hmap(count, spearmancount)];
+                signature_vector = [signature_vector; class(strcmp(seroprotein(spearmancount,1), class(:,1)),2)];
+            end
+        end
+        [~,idx] = max(spearman_vector);
+        novel_seroprotein = [novel_seroprotein; [seroprotein(count,1), signature_vector(idx,1)]];
     end
 end
-set(gca,'LineWidth',3,'XTick',[],'YTick',[]);
-print_to_file([outdir 'Input-wide.Spearman.pdf'],1200);
-hold off
+if size(novel_seroprotein,1) > 0
+    writematrix(novel_seroprotein, [outdir 'novel.seroprotein.signature.txt'], 'Delimiter', '\t', 'FileType', 'text');
+    disp(['Outputting figure to ' outdir 'novel.seroprotein.signature.txt']);
+end
 
 % Statistical anaylsis
 alpha = 0.05/size(signature,1);
@@ -176,6 +189,62 @@ if strcmp(statistics_value,'on')
         line([-1 1],[-log10(alpha) -log10(alpha)],'Color',[0.5 0.5 0.5],'LineWidth',line_width);
         set(gca,'LineWidth',3,'XTick',-1:1:1,'YTick',0:(ymax/2):ymax);
         print_to_file([outdir char(combi(count,1)) '.vs.' char(combi(count,2)) '.volcano.pdf'],1200);
+        hold off
+    end
+end
+
+% ROC curve
+if strcmp(roc_value,'on')
+    fold = 10;
+    maxiter = 1000;
+    if sum(strcmp(group, "Healthy Control")) == 0
+        error('Healthy Control is either mislabelled or absent');
+    end
+    for signaturecount = 1:1:size(signature)
+        alpha = 0.05/sum(strcmp(class(:,2),signature(signaturecount,1)));
+        for groupcount = 1:1:size(group)
+            if ~strcmp(group(groupcount,1),"Healthy Control")
+                matrix_include = (roc_matrix(strcmp(class(:,2),signature(signaturecount,1)),strcmp(group(groupcount,1),groupID)|strcmp("Healthy Control",groupID))).';
+                group_include = groupID(strcmp(group(groupcount,1),groupID)|strcmp("Healthy Control",groupID),1);
+                matrix_exclude = (roc_matrix(strcmp(class(:,2),signature(signaturecount,1)),~strcmp(group(groupcount,1),groupID)&~strcmp("Healthy Control",groupID))).';
+                group_exclude = groupID(~strcmp(group(groupcount,1),groupID)&~strcmp("Healthy Control",groupID),1);
+                fold_include = fold*size(matrix_include,1)/(size(matrix_include,1)+size(matrix_exclude,1));
+                roc_vector = [];
+                for iter = 1:1:maxiter
+                    trainingidx = [randperm(sum(strcmp(groupID, "Healthy Control")),round(sum(strcmp(groupID, "Healthy Control"))*fold_include/(fold_include+1))),(randperm(sum(strcmp(groupID, group(groupcount,1))),round(sum(strcmp(groupID, group(groupcount,1)))*fold_include/(fold_include+1)))+sum(strcmp(groupID, "Healthy Control"))-1)];
+                    validationidx = ~ismember(1:sum(strcmp(groupID, "Healthy Control")|strcmp(groupID, group(groupcount,1))),trainingidx);
+                    trainingmatrix = [matrix_include(trainingidx,:);matrix_exclude];
+                    traininggroup = [group_include(trainingidx,1);group_exclude];
+                    validationmatrix = matrix_include(validationidx,:);
+                    validationgroup = group_include(validationidx,1);
+                    
+                    mdl = fitglm(trainingmatrix, ~strcmp(traininggroup, "Healthy Control"), 'Distribution', 'binomial', 'Link', 'logit');
+                    prediction = [predict(mdl, validationmatrix),~strcmp(validationgroup, "Healthy Control")];
+                    roc_vector = [roc_vector; prediction];
+                end
+                writematrix(roc_vector, [outdir 'Healthy Control vs ' char(group(groupcount,1)) '.' char(signature(signaturecount,1)) '.ROC.txt'], 'Delimiter', '\t', 'FileType', 'text');
+                disp(['Outputting figure to ' outdir 'Healthy Control vs ' char(group(groupcount,1)) '.' char(signature(signaturecount,1)) '.ROC.txt']);
+            end
+        end
+        mdl = fitglm([matrix_include;matrix_exclude], ~strcmp([group_include;group_exclude], "Healthy Control"), 'Distribution', 'binomial', 'Link', 'logit');
+        p_value = mdl.Coefficients.pValue;
+        p_value = p_value(2:end,1);
+        log2cDOR = mdl.Coefficients.Estimate/log(2);
+        log2cDOR = log2cDOR(2:end,1);
+        scatter_size = 25;
+        figure('Visible','off');
+        scatter(log2cDOR,-log10(p_value),scatter_size,cmap(signaturecount,:),'filled');
+        hold on
+        box on
+        ylabel('-log10 p-value');
+        xlabel('log2 conditional DOR');
+        xmax = round(max(abs(log2cDOR)) * 1.5)+1;
+        ymax = round(max(-log10(p_value)) * 1.5)+1;
+        ylim([0 ymax]);
+        xlim([-xmax xmax]);
+        line([-xmax xmax],[-log10(alpha) -log10(alpha)],'Color',[0.5 0.5 0.5],'LineWidth',line_width);
+        set(gca,'LineWidth',3,'XTick',-xmax:xmax:xmax,'YTick',0:(ymax/2):ymax);
+        print_to_file([outdir 'Healthy Control vs Cancer.' char(signature(signaturecount,1)) '.volcano.pdf'],1200);
         hold off
     end
 end
