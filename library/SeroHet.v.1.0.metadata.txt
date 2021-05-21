@@ -1,0 +1,586 @@
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	Prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	Prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Obese	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	Prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	Prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	Prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	Prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	Prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Obese	Never smoker	Prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Obese	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Hypertensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Obese	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Obese	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Elderly	Non-diabetic	Hypertensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Never smoker	Prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Elderly	Diabetic	Normotensive	Lean	Never smoker	Prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Non-elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	Family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Female	Non-elderly	Non-diabetic	Normotensive	Lean	Never smoker	No prior malignancy	No family history	Never consumed alcohol
+Male	Non-elderly	Non-diabetic	Normotensive	Lean	Ever smoker	No prior malignancy	Family history	Consumed alcohol
+Male	Elderly	Diabetic	Normotensive	Obese	Ever smoker	No prior malignancy	No family history	Consumed alcohol
+Male	Elderly	Diabetic	Hypertensive	Obese	Ever smoker	No prior malignancy	Family history	Consumed alcohol
