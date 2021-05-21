@@ -9,7 +9,7 @@ SeroHet is developed and maintained by Hanjun Lee (MIT/MGH/Broad). SeroHet signa
 
 ## Installation
 SeroHet is implemented in MATLAB. MATLAB version equal to or greater than R2019b is recommended. SeroHet has been tested in Windows, Mac, and Linux environments.
-Download and decompress the latest stable release of SeroHet to your directory of choice. The current stable release of SeroHet is [v.1.2-alpha](https://github.com/hanjunlee21/SeroHet/releases/tag/v.1.2-alpha).
+Download and decompress the latest stable release of SeroHet to your directory of choice. The current stable release of SeroHet is [v.1.2-beta](https://github.com/hanjunlee21/SeroHet/releases/tag/v.1.2-beta).
 
 Alternatively, if you have git functionality in your system, you can run the following:
 ```git
