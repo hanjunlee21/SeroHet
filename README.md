@@ -42,6 +42,7 @@ Optionally, if you want to perform statistical analysis on your grouped samples,
 ```matlab
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir','Statistics','on');
 ```
+
 <br/>
 
 ### ROC
@@ -67,7 +68,9 @@ A bar plot of logistic(z-score) of each group
 * each signature is color-coded and is presented in an order specified [here](https://hanjun.group/wp-content/uploads/2021/05/SeroHet.v.1.0.txt)
 
 <img src="https://user-images.githubusercontent.com/67846757/119079876-08129c80-b9c7-11eb-98c7-4662d0f578de.jpg" width="500">
+
 **Figure 1. logistic z-scores of each seroprotein in the initial SeroHet cohort**
+
 <br/>
 
 ### `GroupID1.GroupID2.volcano.pdf`
@@ -78,7 +81,9 @@ A volcano plot between two groups
 * signature-wise Bonferroni-corrected threshold for p-value is presented as a horizontal line
 
 <img src="https://user-images.githubusercontent.com/67846757/119079953-31332d00-b9c7-11eb-9730-9b5a2f9a67d5.jpg" width="500">
+
 **Figure 2. volcano plot showing the alteractions in the expression profiles of each signature between individuals without cancer and AJCC stage I cancer patients in the initial SeroHet cohort**
+
 <br/>
 
 ### `Healthy Control vs Cancer.Signature ID.volcano.pdf`
@@ -90,10 +95,12 @@ A volcano plot for conditional diagnostic odds ratio in ROC
 * seroprotein-wise Bonferroni-corrected threshold for p-value is presented as a horizontal line
 
 <img src="https://user-images.githubusercontent.com/67846757/119080850-d1d61c80-b9c8-11eb-847b-d214db4873b9.jpg" width="500">
+
 **Figure 3. volcano plot showing the conditional diagnostic odds ratio of seroproteins from SeroHet signature 3 in the initial SeroHet cohort**
+
 <br/>
 
-### `Healthy Control vs GroupID.Signature ID.ROC.pdf`
+### `Healthy Control vs GroupID.Signature ID.ROC.txt`
 A text file containing prediction values and state values required for ROC construction
 * column 1: prediction values (logistic regression, range: 0–1)
 * column 2: state values (0: Healthy Control, 1: Cancer)
