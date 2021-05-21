@@ -138,5 +138,5 @@ A forest plot of signature-wise log2 fold change in each metadata
 A text file containing -log10 p-values for the signature-wise alterations in each metadata
 * column 1: MetadataID1
 * column 2: MetadataID2
-* column 3–10: signature-wise -log10 p-value (Welch's t-test)
+* columns 3–10: signature-wise -log10 p-value (Welch's t-test)
 <br/>
