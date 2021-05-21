@@ -7,7 +7,7 @@ SeroHet requires three input files:
 		unit should be identical to that in the library/SeroHet.v.1.0.txt
 	a single .txt file containing the names of the seroprotein (#seroproteins-by-1)
 		nomenclature should be identical to that in the library/SeroHet.v.1.0.txt
-	a single .txt file containing the group IDs (#groups-by-1)
+	a single .txt file containing the group IDs (#samples-by-1)
 		non-cancer data should be labeled as "Healthy Control"
 
 For detailed descriptions on SeroHet, please refer to:
