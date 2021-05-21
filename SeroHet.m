@@ -13,9 +13,9 @@
 %        'on' | 'off'
 %    'ROC' - Whether to draw ROC curves
 %        'on' | 'off'
+%    'Metadata' - Whether to analyze relationship between SeroHet signatures and metadata
+%        'path_metadata'
 %
-% Output Figures:
-%    (groupID).SeroHet.signatures.pdf : This bar plot compares the SerHet signatures in the given group
 %
 
 function SeroHet(path_matrix,path_seroprotein,path_groupID,outdir,field1_name,field1_value)
@@ -42,39 +42,50 @@ elseif nargin==3
     outdir = [install_path 'figure/'];
     disp(outdir);
     statistics_value = 'off';
-    roc_value = 'off'
+    roc_value = 'off';
+    metadata_value = 'off';
 elseif nargin==4
     statistics_value = 'off';
-    roc_value = 'off'
+    roc_value = 'off';
+    metadata_value = 'off';
 elseif nargin==5
     disp('Usage: SeroHet(path_matrix,path_seroprotein,path_groupID,outdir)');
     disp('Usage: SeroHet(___, Name, Value)');
     disp('User must specify optional field name and value');
     return;
 elseif nargin==6
-    if ~strcmpi(field1_name, 'Statistics')&&~strcmpi(field1_name, 'Statistic')&&~strcmpi(field1_name, 'ROC')
+    if ~strcmpi(field1_name, 'Statistics')&&~strcmpi(field1_name, 'Statistic')&&~strcmpi(field1_name, 'ROC')&&~strcmpi(field1_name, 'Metadata')
         disp('Invalid optional field name');
         return;
     end
-    if ~strcmpi(field1_value, 'on')&&~strcmpi(field1_value, 'off')&&~strcmpi(field1_value, 'true')&&~strcmpi(field1_value, 'false')&&~strcmpi(field1_value, 'T')&&~strcmpi(field1_value, 'F')
+    if ~strcmpi(field1_value, 'on')&&~strcmpi(field1_value, 'off')&&~strcmpi(field1_value, 'true')&&~strcmpi(field1_value, 'false')&&~strcmpi(field1_value, 'T')&&~strcmpi(field1_value, 'F')&&~strcmpi(field1_name, 'Metadata')
         disp('Invalid optional field value');
         return;
     elseif strcmpi(field1_value, 'on')||strcmpi(field1_value, 'true')||strcmpi(field1_value, 'T')
         if strcmpi(field1_name, 'Statistics')||strcmpi(field1_name, 'Statistic')
             statistics_value = 'on';
             roc_value = 'off';
+            metadata_value = 'off';
         elseif strcmpi(field1_name, 'ROC')
             roc_value = 'on';
             statistics_value = 'off';
+            metadata_value = 'off';
         end
     elseif strcmpi(field1_value, 'off')||strcmpi(field1_value, 'false')||strcmpi(field1_value, 'F')
         if strcmpi(field1_name, 'Statistics')||strcmpi(field1_name, 'Statistic')
             statistics_value = 'off';
             roc_value = 'off';
+            metadata_value = 'off';
         elseif strcmpi(field1_name, 'ROC')
             roc_value = 'off';
             statistics_value = 'off';
+            metadata_value = 'off';
         end
+    elseif strcmpi(field1_name, 'Metadata')
+        statistics_value = 'off';
+        roc_value = 'off';
+        metadata_value = 'on';
+        path_metadata = field1_value;
     end
 end
 if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)||~ischar(outdir)||~ischar(field1_name)||~ischar(field1_value)
@@ -246,5 +257,73 @@ if strcmp(roc_value,'on')
         set(gca,'LineWidth',3,'XTick',-xmax:xmax:xmax,'YTick',0:(ymax/2):ymax);
         print_to_file([outdir 'Healthy Control vs Cancer.' char(signature(signaturecount,1)) '.volcano.pdf'],1200);
         hold off
+    end
+end
+
+% Metdata analysis
+if strcmp(metadata_value,'on')
+    path_metadata = full_path(path_metadata, install_path);
+    metadata = read_metadata(path_metadata);
+    if size(metadata,1) ~= size(matrix.',1)
+        error('Number of rows in the metadata does not match sample number');
+    else
+        metadata_group1 = cell(1,size(metadata,2));
+        metadata_group2 = cell(1,size(metadata,2));
+        metadata_log2FC = [];
+        metadata_welch_p = [];
+        for count = 1:1:size(metadata,2)
+            metadata_group = unique(metadata(:,count));
+            metadata_char_determinant = char(metadata_group(2,1));
+            if strcmpi(metadata_char_determinant,'Lean')||strcmpi(metadata_char_determinant,'Female')||strcmpi(metadata_char_determinant(1),'N')
+                metadata_group = metadata_group(end:-1:1,1);
+            end
+            metadata_group1(1,count) = {char(metadata_group(1,1))};
+            metadata_group2(1,count) = {char(metadata_group(2,1))};
+            log2FC = zeros(1,size(signature,1));
+            welch_p = zeros(1,size(signature,1));
+            for signaturecount = 1:1:size(signature,1)
+                log2FC(1,signaturecount) = log(mean(mean(matrix(strcmp(class(:,2),signature(signaturecount,1)),strcmp(metadata(:,count),metadata_group(2,1))).').'))/log(2)-log(mean(mean(matrix(strcmp(class(:,2),signature(signaturecount,1)),strcmp(metadata(:,count),metadata_group(1,1))).').'))/log(2);
+                [~,welch_p(1,signaturecount)] = ttest2(mean(matrix(strcmp(class(:,2),signature(signaturecount,1)),strcmp(metadata(:,count),metadata_group(2,1))).'),mean(matrix(strcmp(class(:,2),signature(signaturecount,1)),strcmp(metadata(:,count),metadata_group(1,1))).'),'VarType','unequal');
+            end
+            metadata_log2FC = [metadata_log2FC; log2FC];
+            metadata_welch_p = [metadata_welch_p; welch_p];
+        end
+        
+        scatter_size = 75;
+        figure('Visible','off');
+        for count = 1:1:size(metadata,2)
+            if count == 1
+                scatter(metadata_log2FC(count,:).',repmat(1+size(metadata,2)-count,size(signature,1),1),scatter_size,cmap,'filled');
+                line([-1 1],[1+size(metadata,2)-count 1+size(metadata,2)-count],'Color',[0.5 0.5 0.5],'LineWidth',line_width);
+                hold on
+            else
+                scatter(metadata_log2FC(count,:).',repmat(1+size(metadata,2)-count,size(signature,1),1),scatter_size,cmap,'filled');
+                line([-1 1],[1+size(metadata,2)-count 1+size(metadata,2)-count],'Color',[0.5 0.5 0.5],'LineWidth',line_width);
+            end
+        end
+        box on
+        ymax = size(metadata,2)+1;
+        xlim([-1 1]);
+        xlabel('log2 fold change');
+        yyaxis left
+        ylim([0 ymax]);
+        yticks(1:1:size(metadata,2));
+        yticklabels(metadata_group1(1,end:-1:1));
+        yyaxis right
+        ylim([0 ymax]);
+        yticks(1:1:size(metadata,2));
+        yticklabels(metadata_group2(1,end:-1:1));
+        set(gca,'LineWidth',3,'XTick',-1:1:1,'ycolor','w');
+        print_to_file([outdir 'Metadata.log2FC.pdf'],1200);
+        hold off
+        
+        description = ["Column1","Column2"];
+        description = [description,signature.'];
+        below_description = [string(metadata_group1).',string(metadata_group2).'];
+        for signaturecount = 1:1:size(signature,1)
+            below_description = [below_description,num2str(-log10(metadata_welch_p(:,signaturecount)))];
+        end
+        writematrix([description;below_description],[outdir 'Metadata.-log10P.txt'],'FileType','text','Delimiter','\t');
+        disp(['Outputting figure to ' outdir 'Metadata.-log10P.txt']);
     end
 end

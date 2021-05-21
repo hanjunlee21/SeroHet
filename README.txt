@@ -28,7 +28,7 @@ e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprote
 This package is supported in Windows, Mac, and Linux environments.
 This package was developed using Matlab version 2019b.
 
-----------v.1.1 patch---------
+----------v.1.1-alpha patch---------
 
 Statistics optional field and input-wide Spearman correlation coefficient heatmap are added.
 
@@ -38,7 +38,7 @@ SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'Statistics', 
 
 e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','Statistics','on');
 
-----------v.1.2 patch---------
+----------v.1.2-alpha patch---------
 
 ROC optional field is added. Input-wide Spearman correlation coefficient heatmap has been deprecated.
 
@@ -47,3 +47,13 @@ enter a MATLAB session and run the matlab function
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'ROC', 'on');
 
 e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','ROC','on');
+
+----------v.1.2-beta patch---------
+
+Metadata optional field is added.
+
+To run Metadata analysis on SeroHet,
+enter a MATLAB session and run the matlab function
+SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'Metadata', 'path_metadata');
+
+e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','Metadata','library/SeroHet.v.1.0.metadata.txt');
