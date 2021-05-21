@@ -37,3 +37,13 @@ enter a MATLAB session and run the matlab function
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'Statistics', 'on');
 
 e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','Statistics','on');
+
+----------v.1.2 patch---------
+
+ROC optional field is added. Input-wide Spearman correlation coefficient heatmap has been deprecated.
+
+To run ROC analysis on SeroHet,
+enter a MATLAB session and run the matlab function
+SeroHet('path_matrix','path_seroprotein','path_groupID','outdir', 'ROC', 'on');
+
+e.g. SeroHet('library/SeroHet.v.1.0.matrix.txt','library/SeroHet.v.1.0.seroprotein.txt','library/SeroHet.v.1.0.cancertype.txt','figure','ROC','on');
