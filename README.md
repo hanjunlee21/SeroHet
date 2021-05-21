@@ -23,7 +23,7 @@ SeroHet requires a matrix of seroprotein concentrations. The nomenclature and th
 SeroHet requires three input files:
 * a single tab-delimited .txt file containing the concentrations of each seroprotein (#seroproteins-by-#samples)
 * a single .txt file containing the names of the seroprotein (#seroproteins-by-1)
-* a single .txt file containing the group IDs (#groups-by-1)
+* a single .txt file containing the group IDs (#samples-by-1)
 <br/>
 
 ## Run
@@ -36,8 +36,16 @@ SeroHet('path_matrix','path_seroprotein','path_groupID','outdir');
 By default, SeroHet normalizes the concentration input based on the original SeroHet cohort. This cohort is based on 584 individuals with or without lung, pancreatic, or colorectal cancers. For normalization, only the seroprotein concentration profile of cancer patients are utilized.
 <br/>
 
+In addition, there are several optional fields in SeroHet that users can utilize. Optional fields in SeroHet are mutually exclusive.
+
+```matlab
+SeroHet(___,Name,Value);
+```
+
+<br/>
+
 ### Statistics
-Optionally, if you want to perform statistical analysis on your grouped samples, you can utilize the Statistics functionality of SeroHet. By default, the software will create volcano plots based on Welch's t-test and display the signature-wise Bonferroni-corrected threshold for p-values. To perform this optional statistical analysis, run the following MATLAB function:
+If you want to perform statistical analysis on your grouped samples, you can utilize the Statistics functionality of SeroHet. By default, the software will create volcano plots based on Welch's t-test and display the signature-wise Bonferroni-corrected threshold for p-values. To perform this optional statistical analysis, run the following MATLAB function:
 
 ```matlab
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir','Statistics','on');
@@ -46,15 +54,24 @@ SeroHet('path_matrix','path_seroprotein','path_groupID','outdir','Statistics','o
 <br/>
 
 ### ROC
-Alternatively, if you have individuals without cancer in your cohort, you can utilize ROC functionality of SeroHet to measure signature-wise ROC curves in your cohort. By default, the software performs 1,000 iterations of 10-fold cross-validation. The aggregate data will be saved as a text file. The software will also create volcano plots for each signature based on the conditional diagnostic odds ratio and its cognate p-values calculated by Student's t-test. Of note, ROC fields is currently incompatible with Statistics functionality of SeroHet.
+If you have individuals without cancer in your cohort, you can utilize ROC functionality of SeroHet to measure signature-wise ROC curves in your cohort. By default, the software performs 1,000 iterations of 10-fold cross-validation. The aggregate data will be saved as a text file. The software will also create volcano plots for each signature based on the conditional diagnostic odds ratio and its cognate p-values calculated by Student's t-test.
 
 ```matlab
 SeroHet('path_matrix','path_seroprotein','path_groupID','outdir','ROC','on');
 ```
 <br/>
 
+### Metadata
+If you want to analyze the relationship between metadata and SeroHet signatures, you can utilize the Metadata functionality of SeroHet. By default, the software will draw a forest plot of signature-wise log2 fold change for each metadata and save a text file containing the -log10 p-values. The input file should be a .txt file containing a #samples-by-#metadata matrix for metadata labels. Currently, only two labels for each metadata column is allowed. For instance, for tobacco smoking-associated column, only "Smoker" and "Non-smoker" labels are allowed.
+
+```matlab
+SeroHet('path_matrix','path_seroprotein','path_groupID','outdir','Metadata','path_metadata');
+```
+<br/>
+
 ## Output
 SeroHet produces multiple plots and files as output.
+
 <br/>
 
 ### `novel.seroprotein.signature.txt`
@@ -104,4 +121,22 @@ A volcano plot for conditional diagnostic odds ratio in ROC
 A text file containing prediction values and state values required for ROC construction
 * column 1: prediction values (logistic regression, range: 0–1)
 * column 2: state values (0: Healthy Control, 1: Cancer)
+<br/>
+
+### `Metadata.log2FC.pdf`
+A forest plot of signature-wise log2 fold change in each metadata
+* x-axis: log2 fold change (log2(MetadataID2/MetadataID1))
+* y-axis: metadata type
+
+<img src="https://user-images.githubusercontent.com/67846757/119202458-d220f700-ba5e-11eb-92a8-123bad54522d.jpg" width="500">
+
+**Figure 4. relationship between SeroHet signatures and metadata in the initial SeroHet cohort**
+
+<br/>
+
+### `Metadata.-log10P.txt`
+A text file containing -log10 p-values for the signature-wise alterations in each metadata
+* column 1: MetadataID1
+* column 2: MetadataID2
+* column 3–10: signature-wise -log10 p-value (Welch's t-test)
 <br/>
