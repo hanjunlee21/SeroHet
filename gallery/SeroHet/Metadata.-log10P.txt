@@ -1,0 +1,10 @@
+Column1	Column2	Signature 1	Signature 2	Signature 3	Signature 4	Signature 5	Signature 6	Signature 7	Signature 8	Signature 9	Signature 10
+Female	Male	  0.81062	 0.39137	0.25013	 1.5654	  0.0364	 5.596	0.68876	  2.2179	  1.2463	  1.6546
+Non-elderly	Elderly	  0.69851	  0.5498	 4.1878	 4.6496	  1.1494	1.1966	 0.1659	 0.20791	 0.82754	0.043304
+Non-diabetic	Diabetic	   1.1976	 0.49416	 2.3273	 4.2117	 0.59677	3.2223	0.73274	0.041865	0.043615	 0.21398
+Normotensive	Hypertensive	  0.83778	  1.3221	 5.1787	 4.8237	  1.4305	4.4493	0.38116	 0.78287	0.086947	  1.2367
+Lean	Obese	  0.77537	  0.3875	0.10894	 1.0412	 0.34079	2.5526	0.39909	 0.84741	0.096228	0.032955
+Never smoker	Ever smoker	  0.70977	 0.22375	0.72138	 1.3568	0.015799	 5.745	0.67141	  2.1123	  1.0462	  1.8198
+No prior malignancy	Prior malignancy	  0.36145	0.083235	 4.1309	 2.2009	 0.50377	2.4539	0.32876	  1.4804	  1.5962	 0.12575
+No family history	Family history	0.0044067	0.099733	0.52005	0.32776	 0.15733	 1.967	0.21315	 0.13959	 0.11758	 0.18115
+Never consumed alcohol	Consumed alcohol	  0.10806	 0.34978	 2.8723	 1.6948	  0.7033	5.2291	0.65252	  1.0002	 0.21031	  1.2023
