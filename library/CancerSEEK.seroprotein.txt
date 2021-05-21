@@ -1,0 +1,33 @@
+Ang-2
+sAXL
+CA15-3
+CA19-9
+CD44
+CEA
+Cyfra 21-1
+Endoglin
+FGF2
+Follistatin
+Galectin-3
+G-CSF
+GDF15
+HE4
+HGF
+IL-6
+IL-8
+Kallikrein 6
+Leptin
+Mesothelin
+Midkine
+MPO
+Enolase 2
+OPG
+OPN
+PRL
+sEGFR
+sFas
+SHBG
+sHER2
+sPECAM-1
+TGF-alpha
+TSP2
