@@ -44,10 +44,16 @@ elseif nargin==3
     statistics_value = 'off';
     roc_value = 'off';
     metadata_value = 'off';
+    if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)
+        error('Inputs must be character arrays');
+    end
 elseif nargin==4
     statistics_value = 'off';
     roc_value = 'off';
     metadata_value = 'off';
+    if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)||~ischar(outdir)
+        error('Inputs must be character arrays');
+    end
 elseif nargin==5
     disp('Usage: SeroHet(path_matrix,path_seroprotein,path_groupID,outdir)');
     disp('Usage: SeroHet(___, Name, Value)');
@@ -87,9 +93,9 @@ elseif nargin==6
         metadata_value = 'on';
         path_metadata = field1_value;
     end
-end
-if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)||~ischar(outdir)||~ischar(field1_name)||~ischar(field1_value)
-    error('Inputs must be character arrays');
+    if ~ischar(path_matrix)||~ischar(path_seroprotein)||~ischar(path_groupID)||~ischar(outdir)||~ischar(field1_name)||~ischar(field1_value)
+        error('Inputs must be character arrays');
+    end
 end
 if ~strcmp(outdir(end),'/')
     outdir = [outdir '/'];
