@@ -240,7 +240,7 @@ if strcmp(roc_value,'on')
                     roc_vector = [roc_vector; prediction];
                 end
                 writematrix(roc_vector, [outdir 'Healthy Control vs ' char(group(groupcount,1)) '.' char(signature(signaturecount,1)) '.ROC.txt'], 'Delimiter', '\t', 'FileType', 'text');
-                disp(['Outputting figure to ' outdir 'Healthy Control vs ' char(group(groupcount,1)) '.' char(signature(signaturecount,1)) '.ROC.txt']);
+                disp(['Outputting datafile to ' outdir 'Healthy Control vs ' char(group(groupcount,1)) '.' char(signature(signaturecount,1)) '.ROC.txt']);
             end
         end
         mdl = fitglm([matrix_include;matrix_exclude], ~strcmp([group_include;group_exclude], "Healthy Control"), 'Distribution', 'binomial', 'Link', 'logit');
